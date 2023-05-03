@@ -1,0 +1,150 @@
+<!--M MAt ile eklemiş olduk. (!+tab tuşu)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinema Bilet Rezervasyonu</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<section class="bilet-rezervasyonu">
+     <div class="container">
+
+        <div class="sinema-ekrani">
+            <img src="img/sinema.jpg" alt=""/>
+        </div>
+
+        <div class="row"> <!-- 1.sıra için -->
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row"> <!--2.sıra için -->
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row"> <!-- 3.sıra için -->
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row"> <!-- 4.sıra için -->
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row"> <!-- 5.sıra için -->
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row"> <!-- 6.sıra için -->
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row"> <!-- 7.sıra için -->
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row"> <!-- 8.sıra için -->
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="film-listesi">
+            <select id="film" name="" class="film-select">
+                <option>Film Seçiniz:</option>
+                <option value="10">Esaretin Bedeli</option>
+                <option value="12">Başlangıç</option>
+                <option value="20">Yüzüklerin Efendisi</option>
+                <option value="25">Yeşil Yol</option>
+                <option value="30">Prestij</option>
+                <option value="35">Kara Şovalye</option>
+                <option value="40">Baba</option>
+                <option value="45">Sevginin Gücü</option>
+                <option value="50">Piyanist</option>
+            </select>
+        </div>
+
+        <ul class="info">
+            <li>
+                <div class="seat selected-koltuk"></div>
+                <span>Seçili</span>
+            </li>
+
+            <li>
+                <div class="seat "></div>
+                <span>Boş</span>
+            </li>
+
+            <li>
+                <div class="seat reserved-koltuk"></div>
+                <span>Dolu</span>
+            </li>
+        </ul>
+
+        <p class="fiyat-bilgisi">
+            <span id="adet"></span> adet koltuk için hesaplanan toplam ücret <span id="ucret"></span> TL'dir.
+        </p>
+
+     </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
